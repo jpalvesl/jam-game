@@ -35,18 +35,11 @@ func Caracteristicas(Speed,Peso,Jump,Vida):
 	VIDA = Vida
 	
 func _physics_process(delta):
-	if Elementar[0] != _Elementar:
-		cont  = true
-		s = 0
-	
-	if cont:
-		Tempo()
 	move.y += GRAVIDADE
 	if Input.is_action_pressed("ui_home"):
 		_absorver()
 	else:
-		if Input.is_action_just_pressed("ui_focus_next"):
-			_lancar_fire_ball()
+		_lancar_fire_ball()
 		_andar()
 		_pular()
 	$Sprite.play(anime)
@@ -69,6 +62,7 @@ func _absorver():
 
 
 func _lancar_fire_ball():
+	if Input.is_action_just_pressed("ui_focus_next"):
 		var fireball = FIREBALL.instance()
 		if lado == 1:
 			fireball.position = $FireDir.global_position
@@ -95,9 +89,9 @@ func _andar():
 
 func _pular():
 	if is_on_floor():
+		jump = true
 		if Input.is_action_just_pressed("ui_up"):
 			move.y = JUMP_HEIGHT
-			jump = true
 	else:
 		if jump == true and Input.is_action_just_pressed("ui_up"):
 			move.y = JUMP_HEIGHT
@@ -120,7 +114,7 @@ func _on_Dano_body_entered(body):
 	
 func Vida():
 	queue_free()
-	get_tree().change_scene("res://Menu.tscn")
+	get_tree().change_scene("res://TitleScreen.tscn")
 
 func dano_fireball():
 	Vida()

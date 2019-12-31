@@ -1,10 +1,14 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://TitleScreen.gd" type="Script" id=1]
-[ext_resource path="res://sprites/menu/start-game.png" type="Texture" id=2]
-[ext_resource path="res://sprites/menu/start-game-hover.png" type="Texture" id=3]
-[ext_resource path="res://sprites/menu/quit.png" type="Texture" id=4]
-[ext_resource path="res://sprites/menu/quit-hover.png" type="Texture" id=5]
+[ext_resource path="res://sprites/menu/iNICIAR-JOGO-SEM.png" type="Texture" id=2]
+[ext_resource path="res://sprites/menu/Iniciar-jogo-COM.png" type="Texture" id=3]
+[ext_resource path="res://sprites/menu/CONTROLES-SEM.png" type="Texture" id=4]
+[ext_resource path="res://sprites/menu/CONTROLESCOM.png" type="Texture" id=5]
+[ext_resource path="res://sprites/menu/CRÉDITOS-SEM.png" type="Texture" id=6]
+[ext_resource path="res://sprites/menu/créditos-COM.png" type="Texture" id=7]
+[ext_resource path="res://sprites/menu/SAIRSEM.png" type="Texture" id=8]
+[ext_resource path="res://sprites/menu/saircom.png" type="Texture" id=9]
 
 [node name="TitleScreen" type="Node"]
 script = ExtResource( 1 )
@@ -33,19 +37,35 @@ margin_right = 360.0
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainer"]
 margin_top = 16.0
 margin_right = 360.0
-margin_bottom = 140.0
+margin_bottom = 268.0
 
-[node name="TextureButton" type="TextureButton" parent="MarginContainer/VBoxContainer/VBoxContainer"]
+[node name="IniciarJogo" type="TextureButton" parent="MarginContainer/VBoxContainer/VBoxContainer"]
 margin_right = 360.0
 margin_bottom = 60.0
 texture_normal = ExtResource( 2 )
 texture_focused = ExtResource( 3 )
 
-[node name="TextureButton2" type="TextureButton" parent="MarginContainer/VBoxContainer/VBoxContainer"]
+[node name="Controles" type="TextureButton" parent="MarginContainer/VBoxContainer/VBoxContainer"]
 margin_top = 64.0
 margin_right = 360.0
 margin_bottom = 124.0
 texture_normal = ExtResource( 4 )
 texture_focused = ExtResource( 5 )
-[connection signal="pressed" from="MarginContainer/VBoxContainer/VBoxContainer/TextureButton" to="." method="_on_TextureButton_pressed"]
-[connection signal="pressed" from="MarginContainer/VBoxContainer/VBoxContainer/TextureButton2" to="." method="_on_TextureButton2_pressed"]
+
+[node name="Creditos" type="TextureButton" parent="MarginContainer/VBoxContainer/VBoxContainer"]
+margin_top = 128.0
+margin_right = 360.0
+margin_bottom = 188.0
+texture_normal = ExtResource( 6 )
+texture_focused = ExtResource( 7 )
+
+[node name="Sair" type="TextureButton" parent="MarginContainer/VBoxContainer/VBoxContainer"]
+margin_top = 192.0
+margin_right = 360.0
+margin_bottom = 252.0
+texture_normal = ExtResource( 8 )
+texture_focused = ExtResource( 9 )
+[connection signal="pressed" from="MarginContainer/VBoxContainer/VBoxContainer/IniciarJogo" to="." method="_on_IniciarJogo_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/VBoxContainer/Controles" to="." method="_on_Controles_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/VBoxContainer/Creditos" to="." method="_on_Creditos_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/VBoxContainer/Sair" to="." method="_on_Sair_pressed"]

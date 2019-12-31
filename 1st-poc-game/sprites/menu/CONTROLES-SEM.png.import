@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/start-game-hover.png-c24e31f6b5c52d0c23e1f799c37ee588.stex"
+path="res://.import/CONTROLES-SEM.png-b79f0eeeef71eac60b9a9b266bfbac49.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/menu/start-game-hover.png"
-dest_files=[ "res://.import/start-game-hover.png-c24e31f6b5c52d0c23e1f799c37ee588.stex" ]
+source_file="res://sprites/menu/CONTROLES-SEM.png"
+dest_files=[ "res://.import/CONTROLES-SEM.png-b79f0eeeef71eac60b9a9b266bfbac49.stex" ]
 
 [params]
 
