@@ -1,0 +1,6 @@
+falta ...
+
+jump -> normal, terra, demonio
+run -> demonio
+
+

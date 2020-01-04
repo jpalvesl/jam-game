@@ -23,4 +23,5 @@ func _on_Continuar_pressed():
 
 
 func _on_Sair_pressed():
+	get_tree().paused = not get_tree().paused
 	get_tree().change_scene("res://TitleScreen.tscn")
