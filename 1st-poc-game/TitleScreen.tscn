@@ -52,7 +52,6 @@ texture = ExtResource( 2 )
 centered = false
 
 [node name="player" type="Area2D" parent="."]
-editor/display_folded = true
 position = Vector2( 420, 650 )
 __meta__ = {
 "_edit_group_": true
@@ -67,7 +66,6 @@ animation = "run"
 shape = SubResource( 2 )
 
 [node name="InicioGame" type="StaticBody2D" parent="."]
-editor/display_folded = true
 position = Vector2( 1061.57, 534.01 )
 __meta__ = {
 "_edit_group_": true
