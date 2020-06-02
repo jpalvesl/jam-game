@@ -17,9 +17,9 @@ Repositório criado com o intuito de criar o jogo para a game jaaj 4 - Tema ~> S
 - Ar ➡️ *Uma cor mais clara e fica parcialmente flutuando*
 
 ### **Morte**
-- Fogo -> *Vai queimar até sobrar cinzas*
-- Água -> *Vai virar água e se espalhar pelo chão*
-- Ar -> *Sumir, sobrando apenas roupas e coroa*
+- Fogo ➡️ *Vai queimar até sobrar cinzas*
+- Água ➡️ *Vai virar água e se espalhar pelo chão*
+- Ar ➡️ *Sumir, sobrando apenas roupas e coroa*
 
 ### **Transformação**
 *Chifres nascem e a coroa fica mais escura*
