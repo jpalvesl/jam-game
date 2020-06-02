@@ -1,34 +1,28 @@
 # Jam Game
 Repositório criado com o intuito de criar o jogo para a game jaaj 4 - Tema ~> Seus inimigos são suas armas
 
-[Download]()
+[Download](https://drive.google.com/drive/folders/1kI6jV6uJ7FuqYxvPfG7kWpmiQwkUotGG?usp=sharing)
 
 ## Ideia inicial - Animação
 
-### <strong>Base</strong>
-<ul>
-    <li>Correr</li>
-    <li>Pular</li>
-    <li>Levar dano</li>
-    <li>Morrer</li>
-</ul>
+### **Base**
+- Correr
+- Pular
+- Levar dano
+- Morrer
 
-### <strong>Elementos</strong>
-<ul>
-    <li>Fogo -> <em>Vermelho, com chamas básicas</em></li>
-    <li>Água -> <em>"meio liquido"</em></li>
-    <li>Ar -> <em>Uma cor mais clara e fica parcialmente flutuando</em></li>
-</ul>
+### **Elementos**
+- Fogo ➡️ *Vermelho, com chamas básicas*
+- Água ➡️ *meio liquido*
+- Ar ➡️ *Uma cor mais clara e fica parcialmente flutuando*
 
-### <strong>Morte</strong>
-<ul>
-    <li>Fogo -> <em>Vai queimar até sobrar cinzas</em></li>
-    <li>Água -> <em>Vai virar água e se espalhar pelo chão</em></li>
-    <li>Ar -> <em>Sumir, sobrando apenas roupas e coroa</em></li>
-</ul>
+### **Morte**
+- Fogo -> *Vai queimar até sobrar cinzas*
+- Água -> *Vai virar água e se espalhar pelo chão*
+- Ar -> *Sumir, sobrando apenas roupas e coroa*
 
-### <strong>Transformação</strong>
-<em>Chifres nascem e a coroa fica mais escura</em>
+### **Transformação**
+*Chifres nascem e a coroa fica mais escura*
 
 ### Outros sprites
 Boss, guerreiro e os mobs
@@ -36,9 +30,9 @@ Boss, guerreiro e os mobs
 ## Sobre o jogo
 
 ### Personagens
-Príncipe -> <em>Último da linhagem de demon slayers</em><br>
-Princesa -> <em>Filha de magos</em><br>
-Boss -> <em>Rei demônio</em><br>
+Príncipe ➡️ *Último da linhagem de demon slayers*
+Princesa ➡️ *Filha de magos*
+Boss ➡️ Rei demônio
 
 
 ## História
