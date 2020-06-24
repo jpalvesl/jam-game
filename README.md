@@ -30,9 +30,9 @@ Boss, guerreiro e os mobs
 ## Sobre o jogo
 
 ### Personagens
-Príncipe ➡️ *Último da linhagem de demon slayers*
-Princesa ➡️ *Filha de magos*
-Boss ➡️ Rei demônio
+Príncipe ➡️ *Último da linhagem de demon slayers*   
+Princesa ➡️ *Filha de magos*    
+Boss ➡️ Rei demônio   
 
 
 ## História
